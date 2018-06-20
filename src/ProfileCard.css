@@ -1,0 +1,83 @@
+.Profile-card {
+  border-top: 2px solid #FF8D3D;
+  border-bottom: 2px solid #FF8D3D;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: inline-block;
+  height: 500px;
+  width: 350px;
+  background: url("./././imgs/csjixwup.png");
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0 0 10px 2px #000;
+}
+
+@media only screen and (min-width: 700px) {
+  .Profile-card {
+    margin: 20px 10px;
+  }
+}
+
+.Profile-card-header {
+  text-align: center;
+}
+
+.Profile-card-header img {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  border: 5px solid #fff;
+}
+
+.Profile-card-header h1 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 10px;
+  transition: all ease 0.250s;
+  border-top: 0px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-top: 0px;
+  outline: 0 solid #fff;
+}
+
+.Profile-card-header h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 0px;
+  margin: 0;
+}
+
+.Profile-card-profile {
+  margin-top: 20px;
+  padding: 1px 20px 10px 20px !important;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Profile-card-bio p:first-child {
+  text-align: center;
+  font-size: 16px;
+}
+
+.Profile-card-social {
+  position: relative;
+  margin-top: -430px;
+  margin-left: -320px;
+  list-style-type: none;
+}
+
+.Profile-card-social li img {
+  width: 30px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}

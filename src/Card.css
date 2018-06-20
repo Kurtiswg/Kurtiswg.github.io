@@ -1,0 +1,75 @@
+.Card-layout {
+  border-top: 2px solid #FF8D3D;
+  border-bottom: 2px solid #FF8D3D;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: inline-block;
+  height: 500px;
+  width: 350px;
+  background: url("imgs/csjixwup.png");
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0 0 10px 2px #000;
+}
+
+@media only screen and (min-width: 700px) {
+  .Card-layout {
+    margin: 20px 10px;
+  }
+}
+
+.Card-header {
+  text-align: center;
+}
+
+.Card-header h1 {
+  text-align: center;
+  position: relative;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 10px;
+  border-top: 0px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-top: 30px;
+  outline: 0 solid #fff;
+}
+
+.Card-header p {
+  margin-top: -5px;
+  padding: 1px 20px 10px 20px !important;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Card-body {
+  margin-top: 20px;
+  padding: 1px 20px 10px 20px !important;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Card-social-links {
+  display: relative;
+  list-style-type: none;
+  margin: auto;
+}
+
+.Card-social-media ul {
+  margin-top: -10px;
+  padding: 0px;
+}
+
+.Card-social-links li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.Card-social-links li img {
+  width: 30px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
