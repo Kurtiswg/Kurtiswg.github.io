@@ -1,34 +1,18 @@
 import React, { Component } from 'react';
-import './Card.css';
+import './ContactCard.css';
 
-class Card extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
-    };
-
-    this.updateField = this.updateField.bind(this);
-  }
-
-  updateField(field, value) {
-    this.setState({ [field]: value });
-  }
-
+class ContactCard extends Component {
   render() {
     return (
-      <div className="Card-layout">
-        <div className="Card-header">
+      <div className="ContactCard-layout">
+        <div className="ContactCard-header">
           <h1>Contact</h1>
             <p>A proper contact form is currently in development. In the mean time,
               you can contact me on any of my linked social media or at kurtiswg@outlook.com
             </p>
         </div>
-        <div className="Card-social-media">
-          <ul className="Card-social-links">
+        <div className="ContactCard-social-media">
+          <ul className="ContactCard-social-links">
             <li>
               <a href="https://twitter.com/WullyTweets">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6tiWbuA1MeRUPsY7vQ6OPjvpXQkE-uC0Pane4zR3kGI2c3Hl9tA" alt="Twitter Icon"/>
@@ -51,4 +35,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default ContactCard;

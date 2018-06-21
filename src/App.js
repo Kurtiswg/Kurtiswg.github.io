@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ProfileCard from './ProfileCard';
-import Card from './Card';
+import ContactCard from './ContactCard';
+import ResumeCard from './ResumeCard';
 
 class App extends Component {
   render() {
@@ -14,7 +15,8 @@ class App extends Component {
         </header>
         <div className="Center-fix">
           <ProfileCard />
-          <Card />
+          <ContactCard />
+          <ResumeCard />
         </div>
       </div>
     );
