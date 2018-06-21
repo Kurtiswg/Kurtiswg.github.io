@@ -1,8 +1,13 @@
 {
-  "main.css": "static/css/main.45049ccb.css",
-  "main.css.map": "static/css/main.45049ccb.css.map",
-  "main.js": "static/js/main.57fc5e59.js",
-  "main.js.map": "static/js/main.57fc5e59.js.map",
+  "main.css": "static/css/main.21163cbf.css",
+  "main.css.map": "static/css/main.21163cbf.css.map",
+  "main.js": "static/js/main.716ddfe1.js",
+  "main.js.map": "static/js/main.716ddfe1.js.map",
+  "static/js/0.8fa5c08e.chunk.js": "static/js/0.8fa5c08e.chunk.js",
+  "static/js/0.8fa5c08e.chunk.js.map": "static/js/0.8fa5c08e.chunk.js.map",
+  "static/js/1.8b7134e8.chunk.js": "static/js/1.8b7134e8.chunk.js",
+  "static/js/1.8b7134e8.chunk.js.map": "static/js/1.8b7134e8.chunk.js.map",
   "static\\media\\bg.jpg": "static/media/bg.a5b95b90.jpg",
+  "static\\media\\kgresume.pdf": "static/media/kgresume.6ffdc272.pdf",
   "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
 }
