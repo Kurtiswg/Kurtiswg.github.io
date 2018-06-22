@@ -8,6 +8,7 @@ import resume from './files/kgresume.pdf';
  * Figure out a cleaner way to display the resume.
  * Mobile-friendly support needed.
  * Resume download access.
+ * Clean up the css file
 */
 
 class ResumeCard extends Component {

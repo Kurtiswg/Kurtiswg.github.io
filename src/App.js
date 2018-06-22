@@ -13,11 +13,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Built with React</h1>
         </header>
-        <div className="Center-fix">
-          <ProfileCard />
-          <ContactCard />
-          <ResumeCard />
-        </div>
+        <ProfileCard />
+        <ContactCard />
+        <ResumeCard />
       </div>
     );
   }
